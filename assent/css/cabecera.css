@@ -1,0 +1,35 @@
+.cabecera {
+    align-items: center;
+    background-color: var(--background-ceniza-claro);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 0.5rem;
+}
+
+.logo {
+    width: 15rem;
+}
+
+.ocultar {
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023) {
+    .cabecera {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecera {
+        display: flex;
+        justify-content: space-around;
+    }
+    .ocultar {
+        display: block;
+    }
+    .logo {
+        width: 20rem;
+    }
+}

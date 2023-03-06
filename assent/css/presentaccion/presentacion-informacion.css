@@ -1,0 +1,105 @@
+.presentacion__informacion {
+    width: 85%;
+    padding: 1rem;
+    font-family: var(--montserrat);
+}
+
+.presentacion__informacion--titulo {
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;
+    padding-bottom: 0.5rem;
+}
+
+.presentacion__Biografia {
+    padding-bottom: 1.25rem;
+    font-size: 11px;
+}
+
+.Presentacion__link {
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+}
+
+.link {
+    color: #333;
+    text-decoration: none;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.link1 {
+    padding-left: 0;
+}
+
+.gg-arrow-top-right {
+    margin-left: .2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023) {
+    .presentacion__informacion {
+        width: 70%;
+        align-items: center;
+    }
+    .presentacion__informacion--titulo {
+        font-size: 30px;
+        padding-bottom: 1rem;
+    }
+    .presentacion__Biografia {
+        padding-bottom: 3rem;
+        font-size: 20px;
+    }
+    .Presentacion__link {
+        width: auto;
+        color: var(--background-footer);
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .link {
+        padding: 1.75rem;
+    }
+    .link1 {
+        padding-left: 0;
+    }
+    .gg-arrow-top-right {
+        margin-left: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .presentacion__informacion {
+        align-items: center;
+        width: 60%;
+    }
+    .presentacion__informacion--titulo {
+        font-size: 38px;
+        padding-bottom: 1rem;
+    }
+    .presentacion__Biografia {
+        padding-bottom: 1rem;
+        font-size: 22px;
+    }
+    .Presentacion__link {
+        width: 50%;
+        font-size: 22px;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+    }
+    .link {
+        padding: 1.75rem;
+    }
+    .link1 {
+        padding-left: 0;
+    }
+    .gg-arrow-top-right {
+        margin-left: 1.2rem;
+    }
+}

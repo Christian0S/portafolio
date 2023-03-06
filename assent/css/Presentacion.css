@@ -1,0 +1,44 @@
+.presentacion {
+    display: flex;
+    justify-content: left;
+    flex-direction: column-reverse;
+    padding-top: 1.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.imagen {
+    width: 98px;
+    height: 98px;
+    border-radius: 100%;
+    border: 1px solid #333;
+    margin-left: 2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023) {
+    .presentacion {
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 2.5rem;
+        align-items: center;
+    }
+    .imagen {
+        width: 146px;
+        height: 146px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .presentacion {
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 2.5rem;
+        align-items: center;
+    }
+    .imagen {
+        width: 280px;
+        height: 280px;
+        margin-left: 0;
+        margin-right: 2rem;
+    }
+}
