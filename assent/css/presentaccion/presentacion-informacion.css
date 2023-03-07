@@ -7,13 +7,13 @@
 .presentacion__informacion--titulo {
     font-weight: bold;
     text-align: left;
-    font-size: 15px;
+    font-size: 18px;
     padding-bottom: 0.5rem;
 }
 
 .presentacion__Biografia {
     padding-bottom: 1.25rem;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .Presentacion__link {

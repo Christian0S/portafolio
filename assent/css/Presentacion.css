@@ -5,6 +5,7 @@
     padding-top: 1.75rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    align-items: center;
 }
 
 .imagen {
@@ -30,14 +31,15 @@
 
 @media screen and (min-width: 1024px) {
     .presentacion {
+        background-color: #E5E5E5;
         justify-content: space-around;
         flex-direction: row;
         padding-top: 2.5rem;
         align-items: center;
     }
     .imagen {
-        width: 240px;
-        height: 240px;
+        width: 220px;
+        height: 220px;
         margin-left: 0;
         margin-right: 2rem;
     }

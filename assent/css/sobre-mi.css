@@ -1,0 +1,60 @@
+.sobreMi {
+    font-family: var(--montserrat);
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    background-color: #EAF2FD;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+
+.sobreMi__div {
+    margin: 1.8rem 1.75rem;
+}
+
+.sobreMi__titulo {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.sobreMi__biografia {
+    font-size: 14px;
+    line-height: 1.4rem;
+}
+
+.sobreMi__img {
+    padding-top: 1.75rem;
+    width: 160px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023) {
+    .sobreMi__div {
+        width: 88%;
+    }
+    .sobreMi__titulo {
+        font-size: 25px;
+        font-weight: 600;
+        padding-bottom: 0.5rem;
+    }
+    .sobreMi__biografia {
+        font-size: 14px;
+        line-height: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sobreMi__div {
+        width: 88%;
+    }
+    .sobreMi__titulo {
+        font-size: 40px;
+        font-weight: 600;
+        padding-bottom: 1rem;
+    }
+    .sobreMi__biografia {
+        font-size: 18px;
+        line-height: 1.8rem;
+    }
+}
