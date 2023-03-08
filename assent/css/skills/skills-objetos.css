@@ -1,0 +1,64 @@
+.skills__titulo {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    color: #333;
+    font-family: var(--montserrat);
+}
+
+.skills__componenetes {
+    background-color: #ffffff;
+    height: 120px;
+    width: 35%;
+    margin-bottom: 2.5rem;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 1rem;
+}
+
+.skills__componenetes--texto {
+    position: relative;
+    padding-left: 1rem;
+    top: 70%;
+    font-weight: 600;
+}
+
+.skills__componenetes--html {
+    background-image: url(/assent/img/html.png);
+}
+
+.skills__componenetes--javascript {
+    background-image: url(/assent/img/javascript.png);
+}
+
+.skills__componenetes--nodejs {
+    background-image: url(/assent/img/node-js.png);
+}
+
+.skills__componenetes--react {
+    background-image: url(/assent/img/react.png);
+}
+
+.skills__componenetes--css {
+    background-image: url(/assent/img/css3.png)
+}
+
+.skills__componenetes--python {
+    background-image: url(/assent/img/python.png);
+}
+
+@media screen and (min-width: 768px) {
+    .skills__componenetes {
+        width: 28%;
+        margin: 1rem auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skills__componenetes {
+        margin: 3rem auto;
+        width: 12%;
+    }
+}
