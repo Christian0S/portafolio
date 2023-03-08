@@ -25,30 +25,6 @@
     font-weight: 600;
 }
 
-.skills__componenetes--html {
-    background-image: url(../img/html.png);
-}
-
-.skills__componenetes--javascript {
-    background-image: url(../img/javascript.png);
-}
-
-.skills__componenetes--nodejs {
-    background-image: url(../img/node-js.png);
-}
-
-.skills__componenetes--react {
-    background-image: url(../img/react.png);
-}
-
-.skills__componenetes--css {
-    background-image: url(../img/css3.png)
-}
-
-.skills__componenetes--python {
-    background-image: url(../img/python.png);
-}
-
 @media screen and (min-width: 768px) {
     .skills__componenetes {
         width: 28%;
