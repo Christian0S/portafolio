@@ -26,23 +26,23 @@
 }
 
 .skills__componenetes--html {
-    background-image: url(../assent/img/html.png);
+    background-image: url(./assent/img/html.png);
 }
 
 .skills__componenetes--javascript {
-    background-image: url(/assent/img/javascript.png);
+    background-image: url(./assent/img/javascript.png);
 }
 
 .skills__componenetes--nodejs {
-    background-image: url(/assent/img/node-js.png);
+    background-image: url(./assent/img/node-js.png);
 }
 
 .skills__componenetes--react {
-    background-image: url(/assent/img/react.png);
+    background-image: url(./assent/img/react.png);
 }
 
 .skills__componenetes--css {
-    background-image: url(/assent/img/css3.png)
+    background-image: url(./assent/img/css3.png)
 }
 
 .skills__componenetes--python {
