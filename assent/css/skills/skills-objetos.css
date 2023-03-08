@@ -26,11 +26,11 @@
 }
 
 .skills__componenetes--html {
-    background-image: url(./assent/img/html.png);
+    background-image: url(/img/html.png);
 }
 
 .skills__componenetes--javascript {
-    background-image: url(./assent/img/javascript.png);
+    background-image: url(/assent/img/javascript.png);
 }
 
 .skills__componenetes--nodejs {
@@ -42,7 +42,7 @@
 }
 
 .skills__componenetes--css {
-    background-image: url(./assent/img/css3.png)
+    background-image: url(/assent/img/css3.png)
 }
 
 .skills__componenetes--python {
