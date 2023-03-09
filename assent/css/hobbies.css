@@ -1,0 +1,34 @@
+.hobbies {
+    background-color: #E5E5E5;
+    justify-content: center;
+}
+
+.hobbies__div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hobbies__componenetes--cook {
+    background-image: url(../img/cook.png);
+}
+
+.hobbies__componenetes--camare {
+    background-image: url(../img/camera.png);
+}
+
+.hobbies__componenetes--headset {
+    background-image: url(../img/headset.png);
+}
+
+.hobbies__componenetes--series {
+    background-image: url(../img/tv-show.png);
+}
+
+.hobbies__componenetes--controller {
+    background-image: url(../img/controller.png);
+}
+
+.hobbies__componenetes--leer {
+    background-image: url(../img/leer.png);
+}

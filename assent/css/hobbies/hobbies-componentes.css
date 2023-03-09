@@ -1,4 +1,4 @@
-.skills__titulo {
+.hobbies__titulo {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     font-size: 25px;
@@ -9,7 +9,7 @@
     font-style: italic;
 }
 
-.skills__componenetes {
+.hobbies__componenetes {
     background-color: #ffffff;
     height: 120px;
     width: 35%;
@@ -19,7 +19,7 @@
     background-position: top 1.25rem left 1rem;
 }
 
-.skills__componenetes--texto {
+.hobbies__componenetes--texto {
     position: relative;
     padding-left: 1rem;
     top: 70%;
@@ -27,14 +27,14 @@
 }
 
 @media screen and (min-width: 768px) {
-    .skills__componenetes {
+    .hobbies__componenetes {
         width: 28%;
         margin: 1rem auto;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .skills__componenetes {
+    .hobbies__componenetes {
         margin: 3rem auto;
         width: 12%;
     }

@@ -2,16 +2,13 @@
     display: flex;
     justify-content: left;
     flex-direction: column-reverse;
-    padding-top: 1.75rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1.75rem 1rem 2.5rem 1rem;
 }
 
 .imagen {
     width: 98px;
     height: 98px;
     border-radius: 100%;
-    border: 1px solid #333;
     margin-left: 2rem;
 }
 
