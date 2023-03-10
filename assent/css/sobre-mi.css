@@ -1,7 +1,6 @@
 .sobreMi {
     font-family: var(--montserrat);
     display: flex;
-    height: 350px;
     flex-direction: column;
     background-color: #EAF2FD;
     justify-content: center;

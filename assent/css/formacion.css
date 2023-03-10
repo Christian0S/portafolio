@@ -1,0 +1,33 @@
+.formacion {
+    font-family: var(--montserrat);
+    background-color: #EAF2FD;
+    align-items: center;
+}
+
+.formacion__div {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+.formacion__contenido--udi {
+    background-image: url(../img/udi.png);
+    background-size: 10rem;
+}
+
+.formacion__contenido--lauch {
+    background-image: url(../img/1lauch.png);
+    background-size: 5rem;
+}
+
+.formacion__contenido--alura {
+    background-image: url(../img/alura.png);
+    background-size: 10rem;
+}
+
+@media screen and (min-width: 768px) {
+    .formacion__div {
+        display: flex;
+        justify-content: space-around;
+    }
+}
