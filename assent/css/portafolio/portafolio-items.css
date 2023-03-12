@@ -51,6 +51,10 @@
     color: #2A7AE4;
 }
 
+.portafolio__conten--img {
+    width: 296px;
+}
+
 @media screen and (min-width: 768px) {
     .portafolio__conten--img {
         width: 70vh;
@@ -69,6 +73,6 @@
         flex-direction: row-reverse;
     }
     .portafolio__conten--img {
-        width: 60%;
+        width: 50%;
     }
 }
