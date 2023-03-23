@@ -1,0 +1,129 @@
+.titulo__contacto {
+    font-size: 32px;
+    font-weight: 700;
+    color: #464646;
+    padding-bottom: 1rem;
+}
+
+.parrafo__contacto {
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+    padding-bottom: 1rem;
+    line-height: 19px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.input__contacto {
+    box-sizing: border-box;
+    border: none;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 3.25rem;
+    width: 100%;
+    color: #A2A2A2;
+}
+
+.input__contacto::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.input__contacto {
+    outline: none;
+}
+
+.label__contacto {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: 16px;
+    transition: all 0.25s;
+    color: #A2A2A2;
+}
+
+.input__contacto:not(:placeholder-shown)+.label__contacto,
+.input__contacto:focus+.label__contacto {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+    color: #2A7AE4;
+}
+
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.input-container--invalid .input {
+    border: 1px solid var(--warning-color);
+    border-radius: 7px;
+}
+
+.input-container--invalid .input-label {
+    color: var(--warning-color);
+}
+
+.input-container--invalid .input-message-error {
+    color: var(--warning-color);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.text__contacto {
+    height: 133px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    padding-left: 1.8rem;
+    border: none;
+    padding-top: 50px;
+    color: #A2A2A2;
+}
+
+.text__contacto::placeholder {
+    visibility: hidden;
+}
+
+.text__contacto:focus {
+    outline: none;
+}
+
+.text__contacto:not(:placeholder-shown)+.label__contacto,
+.text__contacto:focus+.label__contacto {
+    font-size: 0.875rem;
+    top: 0.5rem;
+    transition: all 0.25s;
+    color: #2A7AE4;
+}
+
+.btn__contacto {
+    border: none;
+    width: 144px;
+    height: 51px;
+    background: #2A7AE4;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+    .skills__componenetes {
+        width: 28%;
+        margin: 1rem auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skills__componenetes {
+        margin: 3rem auto;
+        width: 12%;
+    }
+}

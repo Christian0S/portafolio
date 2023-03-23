@@ -1,11 +1,7 @@
 .contacto {
     font-family: var(--montserrat);
     background-color: #EAF2FD;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    align-items: center;
+    padding: 2rem 1rem;
 }
 
 .form__contacto {
@@ -14,74 +10,31 @@
 }
 
 .contacto__imagen {
-    width: 30%;
-}
-
-.skills__componenetes--contacto {
-    background-image: url(../img/contacto-imagen.png);
-    width: 464px;
-    height: 593px;
-}
-
-.titulo__contacto {
-    font-size: 32px;
-    font-weight: 700;
-    color: #464646;
-    padding-bottom: 1rem;
-}
-
-.parrafo__contacto {
-    font-size: 16px;
-    font-weight: 500;
-    color: #464646;
-    padding-bottom: 1rem;
-    line-height: 19px;
-}
-
-.input__contacto {
-    border: none;
-    width: 656px;
-    height: 56px;
-    border-radius: 5px;
-    margin-bottom: 0.5rem;
-    font-size: 16px;
-    padding-left: 1.8rem;
-}
-
-.label__contacto {
-    display: block;
-    position: relative;
-    left: 1rem;
-    top: 40px;
-    background: transparent;
-    padding: 0 30px;
-    width: 10%;
-    font-size: 16px;
-    color: #A2A2A2;
-    transition: 300ms;
-}
-
-.input__contacto:focus+.label__contacto {
     display: none;
 }
 
-.text__contacto {
-    width: 656px;
-    height: 133px;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    font-size: 16px;
-    padding-left: 1.8rem;
-    border: none;
-    padding-top: 50px;
+@media screen and (min-width: 768px) {
+    .skills__componenetes {
+        width: 28%;
+        margin: 1rem auto;
+    }
 }
 
-.btn__contacto {
-    border: none;
-    width: 144px;
-    height: 51px;
-    background: #2A7AE4;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
+@media screen and (min-width: 1024px) {
+    .contacto {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        align-items: center;
+    }
+    .contacto__imagen {
+        display: block;
+        width: 50%;
+    }
+    .skills__componenetes--contacto {
+        background-image: url(../img/contacto-imagen.png);
+        width: 464px;
+        height: 593px;
+    }
 }

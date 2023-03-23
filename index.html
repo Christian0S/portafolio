@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="assent/css/portafolio/portafolio-items.css">
     <link rel="stylesheet" href="assent/css/contacto.css">
     <link rel="stylesheet" href="assent/css/pieDePagina.css">
+    <link rel="stylesheet" href="assent/css/contacto/inputs.css">
 </head>
 
 <body>
@@ -187,21 +188,34 @@
         <section class="contacto" id="contacto">
             <div class="contacto__imagen skills__componenetes--contacto"></div>
             <div>
-                <form action="#" class="form__contacto">
+                <form action="#contacto" class="form__contacto">
                     <h2 class="titulo__contacto">Contacto</h2>
                     <p class="parrafo__contacto">¿Quieres contactarme?<br> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
 
-                    <label for="nombre" class="label__contacto"> Nombre</label>
-                    <input type="text" class="input__contacto" id="nombre" autocomplete='off'>
 
-                    <label for="email" class="label__contacto">E-mail</label>
-                    <input type="email" class="input__contacto" id="email" autocomplete="off">
+                    <div class="input-container registry__description-container">
+                        <input type="text" class="input__contacto" id="nombre" autocomplete='off' placeholder="nombre" name="nombre" required>
+                        <label for="nombre" class="label__contacto"> Nombre</label>
+                    </div>
 
-                    <label for="asunto" class="label__contacto">Asunto</label>
-                    <input type="text" class="input__contacto" id="asunto" autocomplete="off">
 
-                    <label for="" class="label__contacto">Mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10" class="text__contacto" autocomplete="off"></textarea>
+                    <div class="input-container registry__description-container">
+                        <input type="email" class="input__contacto" id="email" autocomplete="off" placeholder="email" name="email" required>
+                        <label for="email" class="label__contacto">E-mail</label>
+                    </div>
+
+
+
+                    <div class="input-container registry__description-container">
+                        <input type="text" class="input__contacto" id="asunto" autocomplete="off" placeholder="Asunto" name="Asunto" required>
+                        <label for="asunto" class="label__contacto">Asunto</label>
+                    </div>
+
+
+                    <div class="input-container registry__description-container">
+                        <textarea name="" id="" cols="30" rows="10" class="text__contacto" autocomplete="off" required placeholder="Mensaje" name="mensaje"></textarea>
+                        <label for="" class="label__contacto">Mensaje</label>
+                    </div>
 
                     <button class="btn__contacto">Enviar mensaje</button>
                 </form>
