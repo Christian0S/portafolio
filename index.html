@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="assent/css/formacion/formacion-componentes.css">
     <link rel="stylesheet" href="assent/css/portafolio.css">
     <link rel="stylesheet" href="assent/css/portafolio/portafolio-items.css">
+    <link rel="stylesheet" href="assent/css/contacto.css">
+    <link rel="stylesheet" href="assent/css/pieDePagina.css">
 </head>
 
 <body>
@@ -41,7 +43,7 @@
                 <li class="menu__item ocultar"><a class="menu__link" href="#hobbies">Hobbies</a></li>
                 <li class="menu__item ocultar"><a class="menu__link" href="#formacion">Formación</a></li>
                 <li class="menu__item ocultar"><a class="menu__link" href="#portafolio">Proyectos</a></li>
-                <li class="menu__item "><a class="menu__link" href="#">Contacto</a></li>
+                <li class="menu__item "><a class="menu__link" href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -182,6 +184,34 @@
                 </li>
             </ul>
         </section>
+        <section class="contacto" id="contacto">
+            <div class="contacto__imagen skills__componenetes--contacto"></div>
+            <div>
+                <form action="#" class="form__contacto">
+                    <h2 class="titulo__contacto">Contacto</h2>
+                    <p class="parrafo__contacto">¿Quieres contactarme?<br> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+
+                    <label for="nombre" class="label__contacto"> Nombre</label>
+                    <input type="text" class="input__contacto" id="nombre" autocomplete='off'>
+
+                    <label for="email" class="label__contacto">E-mail</label>
+                    <input type="email" class="input__contacto" id="email" autocomplete="off">
+
+                    <label for="asunto" class="label__contacto">Asunto</label>
+                    <input type="text" class="input__contacto" id="asunto" autocomplete="off">
+
+                    <label for="" class="label__contacto">Mensaje</label>
+                    <textarea name="" id="" cols="30" rows="10" class="text__contacto" autocomplete="off"></textarea>
+
+                    <button class="btn__contacto">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="pieDePagina">
+            <p class="texto__pieDePagina">Desarrollado por Christian Sanchez
+                <br>2023</p>
+        </footer>
     </main>
 </body>
 
