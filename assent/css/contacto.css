@@ -13,13 +13,6 @@
     display: none;
 }
 
-@media screen and (min-width: 768px) {
-    .skills__componenetes {
-        width: 28%;
-        margin: 1rem auto;
-    }
-}
-
 @media screen and (min-width: 1024px) {
     .contacto {
         display: flex;
